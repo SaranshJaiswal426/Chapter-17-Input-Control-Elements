@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- for file selection  -->
+    <!-- <input type="file" name="fileSubmission"> -->
+we use it in form 
+<form action="upload_file.php" method="post" enctype="multipart/form-data">
+    Select file to upload:
+    <input type="file" name="fileSubmission" id="fileSubmission">
+    <input type="submit" value="Upload your file" name="submit">
+   </form>
+for multiple fileSubmission
+<input type="file" name="fileSubmission" id="fileSubmission" multiple>
+for selection of different images format 
+<input type="file" name="fileSubmission" accept="image/x-png,image/gif,image/jpeg" />5
+</body>
+</html>
